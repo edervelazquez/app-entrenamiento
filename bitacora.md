@@ -8,3 +8,7 @@ con el ciclo while nos permite crear un ciclo siempre y cuando la condicion del 
 - Me trabé en: el espacio entre f y las comillas, no recordaba en donde iba el tipo de dato. 
 tambien me costo entender el ciclo for pero una vez haciendo ejercicios pude entenderlo mejor 
 
+## 23 nov 2026
+- listas y diccionarios: registro.append({...})
+- Dentro del ciclo, leer de serie, no de variables viejas, cuando se termina un ciclo y abrimos otro debo de especificar de que parte de la lista estoy tomando. 
+- En f-strings: {serie['clave']} 
