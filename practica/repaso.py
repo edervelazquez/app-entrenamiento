@@ -1,12 +1,13 @@
-series = int (input ("Cuantas series se realizaron?: "))
+series = int (input("Numero de series: "))
 registro = []
 
 for i in range (series):
-    reps = int (input (f"Serie {i + 1} REPS: "))
-    peso = float (input(f"Serie {i + 1} PESO EN LBS: "))
+    reps = int (input(f"Serie {i + 1 } numero de reps: "))
+    peso = float (input(f" Serie {i + 1} peso en LBS: "))
     
-    registro.append ({"reps": reps, "carga": peso})
+    registro.append ({"reps": reps, "peso": peso})
     
-for serie in registro: 
-    print (f"{serie ['reps']} REPS X {serie ['carga']} LBS")
+for serie in registro:
+    print (f"{serie ['reps']} REPS X {serie ['peso']} LBS")
+    
     
