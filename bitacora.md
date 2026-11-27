@@ -43,3 +43,47 @@ tambien me costo entender el ciclo for pero una vez haciendo ejercicios pude ent
 - Repaso de listas completo de memoria (sin ayuda)
 - Si sale limpio → funciones
 
+## 25 nov 2026 (miércoles)
+- Horario: 14:05–14:41
+- Minutos efectivos: ~35
+- Tema: repaso de listas
+
+### De memoria
+- Primer intento: estructura de 4 pasos y `range(series)` bien; ciclo 2 recorre `registro` (ayer lo confundí con `series`)
+- Fallaron igual que ayer: `append` (puse corchetes) y el `print` con `serie['...']` (además, sin indentar)
+- Después de micro-práctica (solo esas 2 líneas, 3 rondas): el programa completo salió limpio
+
+### Reglas para recordar
+- Las acciones llevan paréntesis: `print()`, `input()`, `len()`, `append()`
+- Corchetes: crear lista `[]` o sacar un dato `serie['reps']`
+- Después de `:`
+
+## 26 nov 2026 (jueves)
+- Horario: 20:00–20:36
+- Minutos efectivos: ~35
+- Tema: repaso de listas en frío + Black + introducción a funciones
+
+### De memoria (24 h sin verlo)
+- append({...}) con paréntesis: ✅ consolidado
+- Ciclo 2 recorre registro e indentado: ✅
+- print: puse {serie: ['reps']} → el ":" en f-string es formato → ValueError
+
+### Funciones (nuevo)
+- def nombre(parámetros): ... return resultado
+- Sin return, la función regresa None (calcula pero no entrega)
+- Los argumentos se asignan por posición: si cambio el orden, no truena pero da mal
+- Redondear al MOSTRAR, no dentro de la función
+
+### Decisiones de diseño
+- En todo el proyecto, siempre (peso, reps)
+
+### Reglas para recordar
+- En f-strings, ":" solo para formato ({rm:.1f}, {vol:.0f})
+- Dato de diccionario: {serie['reps']} pegado
+
+### Otros
+- Black configurado: formatea al guardar (no toca el interior de las f-strings)
+
+### Mañana (vie 2–3 pm)
+- Repaso en frío: programa de listas + las 2 funciones
+- Parte 2: usar calcular_volumen dentro del ciclo de listas
